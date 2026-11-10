@@ -1,0 +1,52 @@
+# Output CSV Configuration
+# ------------------------
+# Set each column to true (include in CSV) or false (omit from CSV).
+# Reorder the keys to change column ordering in the output CSV.
+
+output_file: "results.csv"
+
+columns:
+  Architecture: true
+  Radiator: true
+  L: true
+  Core_Area_in2: true
+  Pump: true
+  Pump_LPM: true
+  Coldplate_Pump_LPM: false
+  Tubing: true
+  Fan: false
+  Fan_CFM: true
+
+  # Motor and Coldplate Temperatures (deg C)
+  FL_Temp_C: true
+  FR_Temp_C: true
+  RL_Temp_C: true
+  RR_Temp_C: true
+  Coldplate_Temp_C: true
+
+  # Coolant / Water Outlet Temperatures (deg C)
+  FL_Water_Temp_C: false
+  FR_Water_Temp_C: false
+  RL_Water_Temp_C: false
+  RR_Water_Temp_C: false
+  Coldplate_Water_Temp_C: false
+  Radiator_Water_Temp_C: false
+
+  # Thermal Resistances (deg C / W)
+  Radiator_R_CW: false
+  Coldplate_R_CW: false
+  Sleeve_R_CW: false
+  Coldplate_Loop_Radiator_R_CW: false
+
+  # Heat Cooled (W), Electrical Power (W), and Mass (lbs)
+  Heat_Cooled_W: false
+  Total_Power_W: true
+  Total_Mass_lbs: true
+
+  # Weight Breakdown (lbs)
+  Radiator_Mass_lbs: true
+  Pump_Mass_lbs: true
+  Fan_Mass_lbs: true
+  Tubing_Mass_lbs: true
+  Fittings_Mass_lbs: true
+  Initial_Mass_lbs: true

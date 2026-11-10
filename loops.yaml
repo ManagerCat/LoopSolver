@@ -1,0 +1,63 @@
+Single: &single
+  qds: 2
+  barbs: 16
+  tubing: 359
+  pumps: 1
+  90s: 0
+  radiators: 2
+  sleeves: 4
+  coldplates: 1
+  closeouts: 1
+  bleed_ports: 1
+
+Left_Right_Split: &left_right
+  qds: 2
+  barbs: 8
+  tubing: 269.12395
+  pumps: 1
+  90s: 0
+  radiators: 1
+  sleeves: 2
+  coldplates: 1
+  closeouts: 0
+  bleed_ports: 2
+
+4_Motor_Parallel: &parallel
+  qds: 0
+  barbs: 10
+  tubing: 380  # 190 per bank (split evenly across the 2 parallel banks)
+  pumps: 1
+  90s: 0
+  radiators: 1
+  sleeves: 4
+  coldplates: 0
+  closeouts: 1
+  bleed_ports: 2
+
+4_Motor_Series_Counterclockwise: &series
+  qds: 0
+  barbs: 10
+  tubing: 260
+  pumps: 1
+  90s: 0
+  radiators: 1
+  sleeves: 4
+  coldplates: 0
+  closeouts: 1
+  bleed_ports: 2
+
+4_Motor_Series_Clockwise: *series
+
+Coldplate:
+  qds: 2
+  barbs: 4
+  tubing: 80
+  pumps: 1
+  90s: 0
+  radiators: 1
+  sleeves: 0
+  coldplates: 1
+  closeouts: 0
+  bleed_ports: 2
+
+  bleed_ports: 2

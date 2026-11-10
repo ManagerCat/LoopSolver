@@ -1,0 +1,15 @@
+motors:
+  motor_r: 0.07
+  max_temp: 120
+  heat:
+    RR: 877
+    FR: 592
+    RL: 744
+    FL: 525
+coldplate:
+  max_temp: 65
+  heat: 720
+ambient:
+  t: 30
+coolant:
+  rho: 988.02  # kg/m^3, used for mass flow: mdot = rho * LPM / 60000

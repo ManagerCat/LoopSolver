@@ -1,0 +1,60 @@
+initial:
+  mass: 7.1424
+pc_rad:
+  a: 0.0660792952
+  b: 0
+  mass: 0.661
+kart_rad:
+  a: 0.058304659
+  b: 0
+  mass: 0.26
+
+sleeve: 
+  a: 0.005982415
+  b: 0
+  mass: 0
+qd_thick: 
+  a: 0.01592922
+  b: 0
+  mass: 0
+
+qd_thin:
+  a: 0.06371688
+  b: 0
+  mass: 0
+90_thin: 
+  a: 0.023606365
+  b: 0
+  mass: 0
+tubing_thin: 
+  a: 0.000355978
+  b: 0
+  mass: 0.00833
+barb_thin:
+  a: 0.001676452
+  b: 0
+  mass: 0
+90_thick:
+  a: 0.008031929
+  b: 0
+  mass: 0
+barb_thick:
+  a: 0.002431181
+  b: 0
+  mass: 0
+tubing_thick:
+  a: 0.0000823571
+  b: 0
+  mass: 0.01391
+coldplate:
+  a: 0.02294493
+  b: 0.02506309
+  mass: 0
+closeout:
+  a: 0
+  b: 0
+  mass: 0.1
+bleeding_port:
+  a: 0
+  b: 0
+  mass: 0.3

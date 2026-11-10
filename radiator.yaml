@@ -1,0 +1,30 @@
+# Regression coefficients for kart radiator thermal resistance:
+# ln(R) = c0 + c_lv*ln(v) + c_lq*ln(Q) + c_ll*ln(L)
+#        + c_lv2*ln(v)^2 + c_lq2*ln(Q)^2 + c_ll2*ln(L)^2
+#        + c_lv_lq*ln(v)*ln(Q) + c_lv_ll*ln(v)*ln(L) + c_lq_ll*ln(Q)*ln(L)
+kart_radiator:
+  intercept: -1.550650565
+  lv: -0.454490389
+  lq: -0.030036004
+  ll: -0.96826847
+  lv2: 0.028685897
+  lq2: 0.01024583
+  ll2: 0.009604261
+  lv_lq: -0.02650431
+  lv_ll: 0.024937094
+  lq_ll: -0.019449809
+  airflow_sweep:
+    a: 0.0000987
+    b: 0.0142
+    c: 6.45
+
+pc_radiator:
+  a: 0.0294241
+  b: -0.18616
+  c: -0.20378
+  airflow_sweep:
+    a: 0.0000726074
+    b: 0.00078022
+    c: 14.20682
+
+# Airflow sweep coefficients
